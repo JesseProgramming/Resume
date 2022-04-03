@@ -7,7 +7,7 @@ function NewApp() {
           Edit <code>src/App.js</code> and save to reload. :D
           NEWWWWWWWW
         </p>
-        <h1>Hello World! :) eat an egg</h1>
+        <h1>Hello World! :) eat an egg lmao</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
