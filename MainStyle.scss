@@ -1,10 +1,120 @@
-$myColor: red;
-$coolBlue: cyan;
+//Import custom fonts saved in the fonts folder
+$fontExtension: ".ttf";
+$importFonts: "Sora-Bold", "Inter-Bold", "BioRhyme-Bold";
+@each $importFonts in $importFonts{
+    @font-face{
+        font-family: $importFonts;
+        src: url($importFonts + $fontExtension);
+    }
+}
+
+$myColor: white;
+$coolBlue: white;
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    min-height: 100vh;
+  }
+
+  .mainHeader{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+
+
 
 h1 {
+    margin-bottom: 20%;
     color: $myColor;
+    font-size: 2em;
 }
 
 p{
     color: $coolBlue;
 }
+
+#grad {
+    //background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    background: linear-gradient(35deg, #12829e, #8434c5);
+    //background-image: url("testsvg.svg");
+    //background-repeat: no-repeat;
+    //background-size: cover;
+  }
+
+
+
+
+.NewApp{
+    font-family: "Inter-Bold";
+}
+
+nav{
+    margin-top: -6%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: -20%;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+nav a:hover {
+    color: skyblue;
+    text-decoration: underline;
+    
+}
+nav ul{
+    list-style-type: none;
+    float: right;
+}
+nav li{
+    display: inline;
+    padding-left: 30px;
+    float: left;
+}
+
+body{
+    background-color: black;
+}
+
+.header-content{
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-content p {
+    margin-top: -10%;
+}
+.projectCard, .projectCard p{
+    color: black;
+}
+
+.card{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
+}
+
+#rectangle {
+    width: 600px; 
+    height: 200px;
+    background: blue;
+    position: absolute;
+    border-radius: 50px;
+    transform: rotate(25deg);
+    opacity: 10%;
+    margin-right: 115%;
+    margin-bottom: 40%;
+ }
