@@ -12,7 +12,7 @@ $myColor: white;
 $coolBlue: white;
 
 .App-header {
-    background-color: #282c34;
+    //background-color: #282c34;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,13 +43,7 @@ p{
     color: $coolBlue;
 }
 
-#grad {
-    //background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
-    background: linear-gradient(35deg, #12829e, #8434c5);
-    //background-image: url("testsvg.svg");
-    //background-repeat: no-repeat;
-    //background-size: cover;
-  }
+
 
 
 
@@ -146,7 +140,7 @@ body{
 .card{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
 }
-
+/*
 #rectangle {
     width: 600px; 
     height: 200px;
@@ -158,3 +152,23 @@ body{
     margin-right: 115%;
     margin-bottom: 40%;
  }
+*/
+ #bg-image{
+     background-image: url("../src/images/code-bg2.jpg");
+     background-repeat: no-repeat;
+     background-size: auto;
+     height: 100vh;
+     width: 100vw;
+     opacity: 0.2;
+     position: absolute;
+     z-index: -1;
+ }
+
+ #grad {
+    background: linear-gradient(35deg, #12829e, #8434c5);
+    height: 100vh;
+    width: 100vw;
+    opacity: 1;
+    position: absolute;
+    z-index: -2;
+  }

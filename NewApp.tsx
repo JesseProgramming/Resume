@@ -14,7 +14,9 @@ function NewApp() {
 
   return (
     <div >
-        <div className="App-header" id="grad">
+      <div id="bg-image"></div>
+      <div id="grad"></div>
+        <div className="App-header">
           <nav>
             <ul>
               <li><a href="#">Home</a></li>
