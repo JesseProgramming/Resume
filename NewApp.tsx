@@ -1,4 +1,4 @@
-import catPicture from '../src/images/kitten.png';
+import catPicture from '../src/images/kitten.jpg';
 
 function AnotherApp() {
   return (
@@ -17,9 +17,9 @@ function NewApp() {
         <div className="App-header" id="grad">
           <nav>
             <ul>
-              <li><a href="default.asp">Home</a></li>
-              <li><a href="news.asp">Projects</a></li>
-              <li><a href="contact.asp">Contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         
@@ -33,12 +33,13 @@ function NewApp() {
             <div className="container mt-3 mainCardContainer">
               <h2 >Project Name</h2>
               <div className="card" style={{width:"400px"}}>
-                <img className="card-img-top" src={catPicture} alt="Card image" style={{width:"100%"}}></img>
+                <img className="card-img-top" src={catPicture} alt="Cat with blue eyes peaking out of cat bed" style={{width:"100%"}}></img>
                 <div className="card-body projectCard">
-                  <h4 className="card-title" style={{fontWeight:"bold"}}>Project Name</h4>
+                  <h3 className="card-title" style={{fontWeight:"bold"}}>Project Name</h3>
                   <p className="card-text">Text about the project. Project details and inspiration. Problems solved in project.</p>
-                  <a href="#" className="btn btn-primary">View Code</a>
-                  <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>See Code</a>
+                  <a href="#" className="btn btn-primary">View Project</a>
+                  <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>View Code</a>
+                  <a href="#" className="btn btn-success" style={{marginLeft: "10px"}}>View Original</a>
                 </div>
                </div>
             </div>
