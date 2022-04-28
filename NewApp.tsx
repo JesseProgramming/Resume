@@ -1,8 +1,4 @@
-//import { library } from "@fortawesome/fontawesome-svg-core";
-//import { faUser } from "@fortawesome/free-solid-svg-icons";
-
-//library.add(faUser);
-//<h2>Well, well. Look who's inside again!!!!!</h2>
+import catPicture from '../src/images/kitten.png';
 
 function AnotherApp() {
   return (
@@ -37,7 +33,7 @@ function NewApp() {
             <div className="container mt-3 mainCardContainer">
               <h2 >Project Name</h2>
               <div className="card" style={{width:"400px"}}>
-                <img className="card-img-top" src="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png" alt="Card image" style={{width:"100%"}}></img>
+                <img className="card-img-top" src={catPicture} alt="Card image" style={{width:"100%"}}></img>
                 <div className="card-body projectCard">
                   <h4 className="card-title" style={{fontWeight:"bold"}}>Project Name</h4>
                   <p className="card-text">Text about the project. Project details and inspiration. Problems solved in project.</p>
