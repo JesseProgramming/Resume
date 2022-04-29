@@ -1,3 +1,4 @@
+import './stylesheets/MainStyle.scss';
 import catPicture from '../src/images/kitten.jpg';
 import Tesla_Image from '../src/images/TeslaPage.JPG';
 import JJ_Image from '../src/images/JimmyJohnsPage.JPG';
@@ -46,9 +47,11 @@ function NewApp() {
                   <div className="card-body projectCard">
                     <h3 className="card-title" style={{fontWeight:"bold"}}>Tesla Landing Page Recreation</h3>
                     <p className="card-text">Text about the project. Project details and inspiration. Problems solved in project.</p>
+                    <div className="buttonContainer">
                     <a href="#" className="btn btn-primary">View Project</a>
                     <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>View Code</a>
                     <a href="https://www.tesla.com/" target="_blank" className="btn btn-success" style={{marginLeft: "10px"}}>View Original</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -59,9 +62,11 @@ function NewApp() {
                   <div className="card-body projectCard">
                     <h3 className="card-title" style={{fontWeight:"bold"}}>Jimmy Johns Menu Redesign</h3>
                     <p className="card-text">Text about the project. Project details and inspiration. Problems solved in project.</p>
+                    <div className="buttonContainer">
                     <a href="#" className="btn btn-primary">View Project</a>
                     <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>View Code</a>
                     <a href="https://www.jimmyjohns.com/menu/" target="_blank" className="btn btn-success" style={{marginLeft: "10px"}}>View Original</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -72,8 +77,10 @@ function NewApp() {
                   <div className="card-body projectCard">
                     <h3 className="card-title" style={{fontWeight:"bold"}}>API Project</h3>
                     <p className="card-text">Text about the project. Project details and inspiration. Problems solved in project.</p>
+                    <div className="buttonContainer">
                     <a href="#" className="btn btn-primary">View Project</a>
                     <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>View Code</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -84,8 +91,12 @@ function NewApp() {
                   <div className="card-body projectCard">
                     <h3 className="card-title" style={{fontWeight:"bold"}}>Data Driven Project</h3>
                     <p className="card-text">Text about the project. Project details and inspiration. Problems solved in project.</p>
-                    <a href="#" className="btn btn-primary">View Project</a>
-                    <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>View Code</a>
+                    <div className="buttonContainer">
+                      <a href="#" className="btn btn-primary">View Project</a>
+                      <a href="#" className="btn btn-danger" style={{backgroundColor:"purple" ,borderColor:"purple", marginLeft: "10px"}}>View Code</a>
+                    </div>
+                    
+                    
                   </div>
                 </div>
               </div>
