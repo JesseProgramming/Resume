@@ -14,8 +14,9 @@ $coolBlue: white;
 .App-header {
     //background-color: #282c34;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    //flex-direction: column;
+    //justify-content: center;
     color: white;
     min-height: 100vh;
     width: 100vw;
@@ -60,8 +61,14 @@ p{
 }
 
 nav{
-    margin-top: 1%;
-    margin-right: 1%;
+    //margin-top: 1%;
+    //margin-right: 1%;
+    //overflow: hidden;
+    display: flex;
+    //justify-content: space-between;
+    //flex-direction: row;
+    
+    
 }
 nav a{
     color: white;
@@ -70,6 +77,10 @@ nav a{
     margin-left: -20%;
     font-weight: 500;
     font-style: italic;
+    //float: right;
+    display: flex;
+    //justify-content: space-between;
+    //flex-direction: row;
     
 }
 nav a:hover {
@@ -79,21 +90,20 @@ nav a:hover {
 }
 nav ul{
     list-style-type: none;
-    float: right;
+    //float: right;
 }
 nav li{
-    display: inline;
-    padding-left: 30px;
-    float: left;
-}
-
-a {
     display: block;
     position: relative;
-    padding: 0.1em 0;
+}
+
+nav a {
+    display: block;
+    position: relative;
+    //padding: 0.1em 0;
   }
 
-  a::after {
+  nav a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -105,8 +115,8 @@ a {
     transition: opacity 300ms, transform 300ms;
   }
 
-  a:hover::after,
-  a:focus::after {
+  nav a:hover::after,
+  nav a:focus::after {
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
   }
@@ -173,6 +183,10 @@ body{
      opacity: 0.12;
      position: absolute;
      z-index: -1;
+
+     background-attachment: fixed;
+    //background-position: center;
+    background-size: cover;
  }
 
  #grad {
@@ -211,4 +225,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card-img-top{
+    border-bottom: solid rgb(196, 196, 196) 1px;
+    border-radius: 6px;
+}
+
+.card-text {
+    font-size: 0.6em;;
+}
+
+.card{
+    border-radius: 6px;
+    height: 17em;
 }

@@ -23,7 +23,6 @@ function NewApp() {
         <div className="App-header">
           <nav>
             <ul>
-              <li><a href="#">Top</a></li>
               <li><a href="#">Projects</a></li>
               <li><a href="#">Skills</a></li>
               <li><a href="#">Resume</a></li>
