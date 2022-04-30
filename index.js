@@ -1,15 +1,15 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-//import NewApp from './NewApp.tsx';
-import CardTesting from './cardTesting.tsx';
+import NewApp from './NewApp.tsx';
+//import ProjectCards from './componets/ProjectCards.tsx';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 
 root.render(
-    //<NewApp />
-    <CardTesting />
+    <NewApp />
+    //<ProjectCards />
 );
 
 // If you want to start measuring performance in your app, pass a function

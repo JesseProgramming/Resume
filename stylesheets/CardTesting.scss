@@ -1,28 +1,93 @@
-.projectCard p{
+
+
+.myCard{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45); 
+    padding: 0;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    margin: 35px;
+    background-color: white;
     color: black;
-    font-size: 1em;
-}
-
-.card{
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.45);
-    border-radius: 6px;
-    height: 22em;
-}
-
-.cardContainer{
-  display: flex;
-  margin-top: 1%;
+    width: 20%;
 }
 
 .card-img-top{
     border-bottom: solid rgb(196, 196, 196) 1px;
-    //border-radius: 6px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    height: 12em;
 }
 
 .projectCard .buttonContainer{
     position: absolute;
     bottom: 3%;
-    //margin-bottom: 5%;
 }
+.card-body p{
+    color: black;
+}
+.card-body a{
+    margin: 5px;
+    width: 80%;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardContainer .row{
+    display: flex;
+    justify-content: center;
+}
+.cardContainer{
+    background-color: aliceblue;
+    h2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .myCard{
+        margin: 0px;
+        margin-left: 5%;
+        width: 40%;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.45); 
+        margin-bottom: 40px;
+        
+    }
+    .cardContainer .row{
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    .myCard{
+        margin: 0px;
+        margin-left: 15%;
+        width: 70%;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.45); 
+        margin-bottom: 40px;
+    }
+    .cardContainer .row{
+        display:initial;
+        justify-content: initial;
+    }
+  }
+
+
+@media only screen and (max-width: 700px) {
+    .myCard{
+        margin: 0px;
+        margin-left: 5%;
+        width: 90%;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.45); 
+        margin-bottom: 40px;
+    }
+    .cardContainer .row{
+        display:initial;
+        justify-content: initial;
+    }
+  }

@@ -1,15 +1,17 @@
-import Tesla_Image from '../src/images/TeslaPage.JPG';
-import JJ_Image from '../src/images/JimmyJohnsPage.JPG';
-import API_Image from '../src/images/api-image.png';
-import Data_Image from '../src/images/DataImage.JPG';
-import ProjectCard from './componets/ProjectCard.tsx';
-import './stylesheets/CardTesting.scss';
+import Tesla_Image from '../images/TeslaPage.JPG';
+import JJ_Image from '../images/JimmyJohnsPage.JPG';
+import API_Image from '../images/api-image.png';
+import Data_Image from '../images/DataImage.JPG';
+import CreateProjectCard from './CreateProjectCard.tsx';
+import '../stylesheets/CardTesting.scss';
 
-function CardTesting() {
+function ProjectCards() {
     return(
         <div>
-            <div className= "cardContainer container-fluid">
-              <ProjectCard
+            <div className= "container-fluid cardContainer">
+            <h2>Projects</h2>
+              <div className="row">
+            <CreateProjectCard
                 cardImage={Tesla_Image}
                 imageAlt="Tesla Landing Page View"
                 headerText="Tesla Landing Page Recreation"
@@ -17,7 +19,7 @@ function CardTesting() {
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink="https://www.tesla.com/"/>
-            <ProjectCard
+            <CreateProjectCard
                 cardImage={JJ_Image}
                 imageAlt="Jimmy Johns Menu Landing Page View"
                 headerText="Jimmy Johns Menu Redesign"
@@ -25,7 +27,7 @@ function CardTesting() {
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink="https://www.jimmyjohns.com/menu/"/>
-            <ProjectCard
+            <CreateProjectCard
                 cardImage={API_Image}
                 imageAlt="API graphic cyan and black"
                 headerText="API Project"
@@ -33,7 +35,7 @@ function CardTesting() {
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink=""/>
-            <ProjectCard
+            <CreateProjectCard
                 cardImage={Data_Image}
                 imageAlt="Coding graphic in blues, blacks, and purples"
                 headerText="Data Driven Project"
@@ -41,9 +43,10 @@ function CardTesting() {
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink=""/>
+                </div>
             </div>
         </div>
     );
 }
 
-export default CardTesting;
+export default ProjectCards;
