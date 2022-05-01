@@ -8,137 +8,50 @@ $importFonts: "Sora-Bold", "Inter-Bold", "BioRhyme-Bold";
     }
 }
 
-$myColor: white;
-$coolBlue: white;
-
+$Section1-Height: 100vh;
+$Section1-Width: 99.13vw;
 .App-header {
-    //background-color: #282c34;
-    display: flex;
-    
-    //flex-direction: column;
-    //justify-content: center;
     color: white;
-    min-height: 100vh;
-    width: 100vw;
+    min-height: $Section1-Height;
+    width: $Section1-Width;
   }
+#bg-image{
+    background-image: url("../images/code-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: $Section1-Height;
+    width: $Section1-Width;
+    opacity: 0.12;
+    position: absolute;
+    z-index: -1;
+    background-attachment: fixed;
+    //background-position: center;
+    background-size: cover;
+}
+#grad {
+   background: linear-gradient(35deg, #12829e, #8434c5);
+   height: $Section1-Height;
+   width: $Section1-Width;
+   opacity: 1;
+   position: absolute;
+   z-index: -2;
+ }
 
-  .mainHeader{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.mainHeader{
     font-size: calc(10px + 2vmin);
     color: white;
   }
 
-
-
-
 h1 {
-    margin-bottom: 20%;
-    color: $myColor;
+    margin-top: 15%;
+    margin-bottom: 2%;
+    color: white;
     font-size: 2em;
     font-weight: 700;
 }
 
-p{
-    color: $coolBlue;
-}
-
-.header-content p {
-    font-weight: 400;
-}
-
-
-
-
-
-
-.NewApp{
-    
-    font-family: "Inter-Bold";
-}
-
-nav{
-    //margin-top: 1%;
-    //margin-right: 1%;
-    //overflow: hidden;
-    display: flex;
-    //justify-content: space-between;
-    //flex-direction: row;
-    
-    
-}
-nav a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    margin-left: -20%;
-    font-weight: 500;
-    font-style: italic;
-    //float: right;
-    display: flex;
-    //justify-content: space-between;
-    //flex-direction: row;
-    
-}
-nav a:hover {
-    color: #6ce2ff;
-    //text-decoration: underline;
-    
-}
-nav ul{
-    list-style-type: none;
-    //float: right;
-}
-nav li{
-    display: block;
-    position: relative;
-}
-
-nav a {
-    display: block;
-    position: relative;
-    //padding: 0.1em 0;
-  }
-
-  nav a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0.15em;
-    background-color: #6ce2ff;
-    opacity: 0;
-    transition: opacity 300ms, transform 300ms;
-  }
-
-  nav a:hover::after,
-  nav a:focus::after {
-    opacity: 1;
-    transform: translate3d(0, 0.2em, 0);
-  }
-
-li a {
-    overflow: hidden;
-  }
-  
-li a::after {
-opacity: 1;
-transform: translate3d(-101%, 0, 0);
-}
-
-li a:hover::after,
-li a:focus::after{
-transform: translate3d(-10%, 0, 0);
-}
-
-
-
 body{
-    background-color: black;
+    background-color: aliceblue;
 }
 
 .header-content{
@@ -149,56 +62,65 @@ body{
     justify-content: center;
 }
 .header-content p {
-    margin-top: 0%;
+    font-weight: 400;
+    max-width: 75%;
+    text-align: center;
 }
 .header-content h2 {
-    margin-top: -15%;
 }
- #bg-image{
-     background-image: url("../images/code-bg2.jpg");
-     background-repeat: no-repeat;
-     background-size: auto;
-     height: 100vh;
-     width: 100vw;
-     opacity: 0.12;
-     position: absolute;
-     z-index: -1;
-
-     background-attachment: fixed;
-    //background-position: center;
-    background-size: cover;
- }
-
- #grad {
-    background: linear-gradient(35deg, #12829e, #8434c5);
-    height: 100vh;
-    width: 100vw;
-    opacity: 1;
-    position: absolute;
-    z-index: -2;
-  }
-
-  .cardContainer .mainCardContainer{
-
-  }
 
 .Skills-Section{
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        margin-top: 2%;
+        font-size: 4em;
+        font-weight: 600;
+    }
+}
+.Contact-Section{
+    padding-top: 5vh;
     height: 100vh;
     background-color:aliceblue;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.Skills-Section h2{
-    margin-top: 2%;
-    font-size: 4em;
-    font-weight: 600;
+    h2{
+        margin-top: 2%;
+        font-size: 4em;
+        font-weight: 600;
+    }
 }
 
-.Contact-Section{
-    height: 100vh;
-    background-color:aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+@media only screen and (max-width: 1400px) {
+    nav a{
+        font-size: 1em;
+    }
+    $Section1-Width: 100vw;
+    .App-header {
+        width: $Section1-Width;
+      }
+    #bg-image{
+        width: $Section1-Width;
+    }
+    #grad {
+       width: $Section1-Width;
+     }
+  }
+
+@media only screen and (max-width: 900px) {
+    nav a{
+        font-size: 1em;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    nav a{
+        font-size: 1em;
+    }
+  }
+
+

@@ -14,9 +14,11 @@ function CreateProjectCard(props) {
             <div className="card-body">
                 <h3>{props.headerText}</h3>
                 <p>{props.projectDescription}</p>
-                <a href={props.viewProjectLink} className="btn btn-primary">View Project</a>
-                <a href={props.viewCodeLink} className="btn btn-primary" style={{backgroundColor:"purple" ,borderColor:"purple"}}>View Code</a>
-                <ShowLastButton viewOriginalLink = {props.viewOriginalLink} isDisplayed= {props.viewOriginalLink === "" ? false : true}/>
+                <div className="CardButtons">
+                    <a href={props.viewProjectLink} className="btn btn-primary">View Project</a>
+                    <a href={props.viewCodeLink} className="btn btn-primary" style={{backgroundColor:"purple" ,borderColor:"purple"}}>View Code</a>
+                    <ShowLastButton viewOriginalLink = {props.viewOriginalLink} isDisplayed= {props.viewOriginalLink === "" ? false : true}/>
+                </div>
             </div>
         </div>
     );
