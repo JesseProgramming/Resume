@@ -18,7 +18,6 @@ export const IMAGE_BACKEND = [
 export const IMAGE_SKILLS_OTHER = [
     ["Git", require('../images/skills-icons/git.256x256.png')],
     ["GitHub", require('../images/skills-icons/github.256x244.png')],
-    ["NPM", require('../images/skills-icons/logo-npm.256x101.png')],
     ["WebPack", require('../images/skills-icons/webpack-plain.231x256.png')],
     ["Babel", require('../images/skills-icons/file-type-babel2.211x256.png')],
     ["Adobe Illustrator", require('../images/skills-icons/adobe-illustrator.256x256.png')],

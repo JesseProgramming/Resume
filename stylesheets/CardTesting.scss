@@ -21,17 +21,58 @@
         color: black;
     }
     .card-body a{
+        color:white;
         margin: 5px;
-        width: 80%;
-    }
-    .card-body{
- 
+        width: 50%;
+        font-size: larger;
+        font-weight: 600;
+        transition: filter 0.15s ease-in-out;
+        
     }
 }
+//linear-gradient(35deg, #12829e, #8434c5)
+
+.card-body{
+    display: block;
+    height: 25vh;
+}
+
 .CardButtons{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4vh;
+    height: 15vh;
+    justify-content: center;
+    
+
+    a{
+        color:white;
+        margin: 5px;
+        width: 50%;
+        font-size: larger;
+        font-weight: 600;
+        transition: filter 0.15s ease-in-out;
+        
+        
+        
+        
+    }
+    a:nth-of-type(3n + 1){
+        background: rgba(66,146,255,1);
+
+    }
+    a:nth-of-type(3n + 2){
+        background: rgba(80,86,255,1);
+
+    }
+    a:nth-of-type(3n + 3){
+        background: rgb(116,15,231);
+    }
+    a:hover{
+        color: white;
+        filter: brightness(125%);
+    }
 }
 
 .projectCardContainer .row{

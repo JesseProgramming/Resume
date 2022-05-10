@@ -2,7 +2,7 @@
 function ShowLastButton(props){
     if(props.isDisplayed){
         return(
-            <a href={props.viewOriginalLink} target="_blank" rel="noreferrer" className="btn btn-success">View Original</a>
+            <a href={props.viewOriginalLink} target="_blank" rel="noreferrer" className="btn">View Original</a>
     );}
 }
 //props:
@@ -14,11 +14,11 @@ function CreateProjectCard(props) {
             <div className="card-body">
                 <h3>{props.headerText}</h3>
                 <p>{props.projectDescription}</p>
-                <div className="CardButtons">
-                    <a href={props.viewProjectLink} className="btn btn-primary">View Project</a>
-                    <a href={props.viewCodeLink} className="btn btn-primary" style={{backgroundColor:"purple" ,borderColor:"purple"}}>View Code</a>
+            </div>
+            <div className="CardButtons">
+                    <a href={props.viewProjectLink} className="btn">View Project</a>
+                    <a href={props.viewCodeLink} className="btn">View Code</a>
                     <ShowLastButton viewOriginalLink = {props.viewOriginalLink} isDisplayed= {props.viewOriginalLink === "" ? false : true}/>
-                </div>
             </div>
         </div>
     );

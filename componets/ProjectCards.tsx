@@ -2,6 +2,9 @@ import Tesla_Image from '../images/TeslaPage.JPG';
 import JJ_Image from '../images/JimmyJohnsPage.JPG';
 import API_Image from '../images/api-image.png';
 import Data_Image from '../images/chartimg.jpg';
+import Resume_Image from '../images/resume_site.JPG';
+import DayDots_Image from '../images/DayDotExample.PNG';
+import Cookie_Image from '../images/Cookie-Clicker-Cheat-Codes.jpg';
 import CreateProjectCard from './CreateProjectCard.tsx';
 import '../stylesheets/CardTesting.scss';
 
@@ -20,26 +23,27 @@ function ProjectCards() {
                 viewCodeLink="#"
                 viewOriginalLink="https://www.tesla.com/"/>
             <CreateProjectCard
-                cardImage={JJ_Image}
-                imageAlt="Jimmy Johns Menu Landing Page View"
-                headerText="Jimmy Johns Menu Redesign"
-                projectDescription="The current Jimmy Johns menu site is unappealing to look at, and a nightmare to navigate. I've put together a revamp of the site making it easy to understand and use."
-                viewProjectLink="#"
-                viewCodeLink="#"
-                viewOriginalLink="https://www.jimmyjohns.com/menu/"/>
-            <CreateProjectCard
                 cardImage={Data_Image}
                 imageAlt="Multiple charts glowing graphic"
                 headerText="Cookie Sales Tracker"
-                projectDescription="Displays data and graphs tracking the sales of a cookie company."
+                projectDescription="Displays data and graphs tracking the sales of a cookie company. This app makes strong use of React, Redux, D3, and JSON data."
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink=""/>
             <CreateProjectCard
-                cardImage={API_Image}
+                cardImage={DayDots_Image}
                 imageAlt="API graphic cyan and black"
-                headerText="API Project"
-                projectDescription="Under development."
+                headerText="Day Dots Reference"
+                projectDescription="A tool built for, and used in the restaurant industry. This app makes it easy to print out a sheet to reference what day a food item expires
+                 and helps prevent mistakes. Add or delete any days you don't need."
+                viewProjectLink="#"
+                viewCodeLink="#"
+                viewOriginalLink=""/>
+                        <CreateProjectCard
+                cardImage={Resume_Image}
+                imageAlt="API graphic cyan and black"
+                headerText="Resume Site"
+                projectDescription="This site was created with highly optomized React code, and has achieved a high Google Lighthouse score."
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink=""/>

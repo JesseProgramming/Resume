@@ -36,6 +36,18 @@ $Section1-Width: 99.13vw;
    position: absolute;
    z-index: -2;
  }
+ #galx {
+    background-image: url("../images/gal1.jpg");
+    height: $Section1-Height;
+    width: $Section1-Width;
+    opacity: 0;
+    position: absolute;
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
 .mainHeader{
     font-size: calc(10px + 2vmin);
