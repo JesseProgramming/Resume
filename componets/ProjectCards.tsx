@@ -13,8 +13,9 @@ function ProjectCards() {
                 imageAlt="Tesla Landing Page View"
                 headerText="Tesla Landing Page Recreation"
                 projectDescription="A clone project of Tesla's landing page."
-                viewProjectLink="#"
+                viewProjectLink="../src/projects/TeslaLanding/index.html"
                 viewCodeLink="#"
+                isTrello={false}
                 viewOriginalLink="https://www.tesla.com/"/>
             <CreateProjectCard
                 cardImage={require('../images/chartimg.jpg').default}
@@ -23,14 +24,15 @@ function ProjectCards() {
                 projectDescription="Displays data and graphs tracking the sales of a cookie company. This app makes strong use of React, Redux, D3, and JSON data."
                 viewProjectLink="#"
                 viewCodeLink="#"
-                viewOriginalLink=""/>
+                isTrello={true}
+                viewOriginalLink="https://trello.com/b/QTYL5TWN/current-todo"/>
             <CreateProjectCard
                 cardImage={require('../images/DayDotExample.PNG').default}
                 imageAlt="API graphic cyan and black"
                 headerText="Day Dots Reference"
                 projectDescription="A tool built for, and used in the restaurant industry. This app makes it easy to print out a sheet to reference what day a food item expires
                  and helps prevent mistakes. Add or delete any days you don't need."
-                viewProjectLink="#"
+                viewProjectLink="../src/projects/DayDots/index.html"
                 viewCodeLink="#"
                 viewOriginalLink=""/>
                         <CreateProjectCard
