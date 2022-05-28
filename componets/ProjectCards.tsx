@@ -12,7 +12,7 @@ function ProjectCards() {
                 cardImage={require('../images/TeslaPage.JPG').default}
                 imageAlt="Tesla Landing Page View"
                 headerText="Tesla Landing Page Recreation"
-                projectDescription="A clone project of Tesla's landing page."
+                projectDescription="A clone project of Tesla's landing page. I've managed to fix several bugs found on the live Tesla site, and managed to score a higher ranking on Google Lighthouse."
                 viewProjectLink="../src/projects/TeslaLanding/index.html"
                 viewCodeLink="#"
                 isTrello={false}
@@ -20,8 +20,8 @@ function ProjectCards() {
             <CreateProjectCard
                 cardImage={require('../images/chartimg.jpg').default}
                 imageAlt="Multiple charts glowing graphic"
-                headerText="Cookie Sales Tracker"
-                projectDescription="Displays data and graphs tracking the sales of a cookie company. This app makes strong use of React, Redux, D3, and JSON data."
+                headerText="Newsletter Site - In Development"
+                projectDescription="Landing page built in pure HTML and CSS. Meant as a landing page for a small business, calling on people to subscribe."
                 viewProjectLink="#"
                 viewCodeLink="#"
                 isTrello={true}
@@ -30,8 +30,7 @@ function ProjectCards() {
                 cardImage={require('../images/DayDotExample.PNG').default}
                 imageAlt="API graphic cyan and black"
                 headerText="Day Dots Reference"
-                projectDescription="A tool built for, and used in the restaurant industry. This app makes it easy to print out a sheet to reference what day a food item expires
-                 and helps prevent mistakes. Add or delete any days you don't need."
+                projectDescription="A tool designed as a reference chart for those in the restaurant industry to help take out human error on mislabeling food products, and thus helping prevent food waste and health hazards."
                 viewProjectLink="../src/projects/DayDots/index.html"
                 viewCodeLink="#"
                 viewOriginalLink=""/>
