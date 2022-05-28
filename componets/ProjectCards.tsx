@@ -43,7 +43,7 @@ function ProjectCards() {
                 cardImage={Resume_Image}
                 imageAlt="API graphic cyan and black"
                 headerText="Resume Site"
-                projectDescription="This site was created with highly optomized React code, and has achieved a high Google Lighthouse score."
+                projectDescription="This site was created with highly optimized React code, and has achieved a high Google Lighthouse score."
                 viewProjectLink="#"
                 viewCodeLink="#"
                 viewOriginalLink=""/>

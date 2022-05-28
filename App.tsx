@@ -2,6 +2,7 @@ import './stylesheets/MainStyle.scss';
 import ProjectCards from './componets/ProjectCards.tsx';
 import SkillsCards from './componets/SkillsCards.tsx';
 import NavBar from './componets/NavBar.tsx';
+import Contact from './componets/Contact.tsx';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <div className="header-content">
               <h1>Jesse James Clem :)</h1>
               <h2>Front End Web Developer</h2>
-              <p>I'm driven to create user friendly sites with highly optimized and clean code.</p>
+              <p>I'm driven to create appealing, and user friendly sites with scalable code.</p>
             </div>
           </header>
           
@@ -26,7 +27,7 @@ function App() {
         <SkillsCards/>
         </div>
         <div className="Contact-Section"id="Contact">
-          <h2>Contact</h2>
+          <Contact/>
         </div>
     </div>
     
