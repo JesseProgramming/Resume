@@ -14,7 +14,7 @@ function ProjectCards() {
                 headerText="Tesla Landing Page Recreation"
                 projectDescription="A clone project of Tesla's landing page. I've managed to fix several bugs found on the live Tesla site, and managed to score a higher ranking on Google Lighthouse."
                 viewProjectLink="../src/projects/TeslaLanding/index.html"
-                viewCodeLink="#"
+                viewCodeLink="https://github.com/JessePython/Tesla-Landing-Page"
                 isTrello={false}
                 viewOriginalLink="https://www.tesla.com/"/>
             <CreateProjectCard
@@ -32,15 +32,15 @@ function ProjectCards() {
                 headerText="Day Dots Reference"
                 projectDescription="A tool designed as a reference chart for those in the restaurant industry to help take out human error on mislabeling food products, and thus helping prevent food waste and health hazards."
                 viewProjectLink="../src/projects/DayDots/index.html"
-                viewCodeLink="#"
+                viewCodeLink="https://github.com/JessePython/DayDots"
                 viewOriginalLink=""/>
                         <CreateProjectCard
                 cardImage={require('../images/resume_site.JPG').default}
                 imageAlt="API graphic cyan and black"
                 headerText="Resume Site"
                 projectDescription="This site was created with highly optimized React code, and has achieved a high Google Lighthouse score."
-                viewProjectLink="#"
-                viewCodeLink="#"
+                viewProjectLink=""
+                viewCodeLink="https://github.com/JessePython/Resume"
                 viewOriginalLink=""/>
                 </div>
             </div>
