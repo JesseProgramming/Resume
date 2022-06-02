@@ -9,7 +9,7 @@ function NavBar(){
                 <li><a href="#Projects">Projects</a></li>
                 <li><a href="#Skills-Section">Skills</a></li>
                 <li><a href="#Contact">Contact</a></li>
-                <li><a href="#Resume"><img src={require('../images/paper-file-text.209x256.png').default}/>Resume</a></li>
+                <li><a href={require('../docs/Resume.pdf').default} download="Jesse-James-Clem-Resume Front-End-Web-Developer.pdf"><img src={require('../images/paper-file-text.209x256.png').default}/>Resume</a></li>
             </ul>
             </nav>
         </div>

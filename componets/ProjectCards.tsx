@@ -12,7 +12,7 @@ function ProjectCards() {
                 cardImage={require('../images/TeslaPage.JPG').default}
                 imageAlt="Tesla Landing Page View"
                 headerText="Tesla Landing Page Recreation"
-                projectDescription="A clone project of Tesla's landing page. I've managed to fix several bugs found on the live Tesla site, and managed to score a higher ranking on Google Lighthouse."
+                projectDescription="A clone project of Tesla's landing page. I've managed to fix several bugs found on the live Tesla site, and managed to score higher rankings in performance and SEO using Google Lighthouse."
                 viewProjectLink="../src/projects/TeslaLanding/index.html"
                 viewCodeLink="https://github.com/JessePython/Tesla-Landing-Page"
                 isTrello={false}
