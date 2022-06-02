@@ -14,7 +14,7 @@ function App() {
         <div className="App-header">        
           <header className = "mainHeader">
             <div className="header-content">
-              <h1>Jesse James Clem :)</h1>
+              <h1>Jesse James Clem</h1>
               <h2>Front End Web Developer</h2>
               <p>I'm driven to create appealing, and user friendly sites with scalable code.</p>
             </div>
