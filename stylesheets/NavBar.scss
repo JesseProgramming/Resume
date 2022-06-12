@@ -22,7 +22,7 @@ html:not([data-scroll='0']) .App-header{
 }
 
 nav{
-    padding-top: 1rem;
+    padding-top: 0.1rem;
 
     ul{
         list-style: none;
@@ -142,5 +142,27 @@ transform: translate3d(-10%, 0, 0);
                 margin-bottom: 7px;
             }
         }
+    }
+  }
+
+  @media only screen and (max-width: 280px) and (height: 653px){
+    nav a{
+        font-size: 0.5em;
+    }
+    nav{
+        padding-top: 0rem;
+        li{
+            margin-top: -10px;
+            margin-right: 1.25rem;
+            img{
+                height: 25px;
+                width: 25px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    li:nth-child(n + 5){
+        padding-top: 20px;
     }
   }

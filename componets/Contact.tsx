@@ -7,8 +7,8 @@ function Contact() {
              <h3>Let's get in touch!</h3>
              <div id="contact-content">
              <a><img src={require('../images/person-circle.256x256.png').default}/> Jesse James Clem</a>
-             <a href = "mailto: JesseCprogramming@gmail.com" target="_blank"><img id = "email-image" src={require('../images/email.256x175.png').default}/> JesseCprogramming@gmail.com</a>
-             <a><img src={require('../images/phone.255x256.png').default}/> 1-360-701-2737</a>
+             <a href = "mailto: JesseClemProgramming@gmail.com" target="_blank"><img id = "email-image" src={require('../images/email.256x175.png').default}/> JesseClemProgramming@gmail.com</a>
+             <a><img src={require('../images/phone.255x256.png').default}/> 1 (360) 701-2737</a>
              
              
              </div>
