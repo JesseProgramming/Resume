@@ -19,7 +19,7 @@ function ProjectCards() {
                 viewOriginalLink="https://www.tesla.com/"/>
             <CreateProjectCard
                 cardImage={require('../images/DailyDaydots.png').default}
-                imageAlt="API graphic cyan and black"
+                imageAlt="Screenshot of GUI in the day dots app"
                 headerText="Day Dots Reference"
                 projectDescription="A tool designed as a reference chart for use in the restaurant industry to help take out human
                 error on mislabeling food products, and thus helping prevent food waste and health hazards.
@@ -30,7 +30,7 @@ function ProjectCards() {
                 viewOriginalLink=""/>
             <CreateProjectCard
                 cardImage={require('../images/resume_site.JPG').default}
-                imageAlt="API graphic cyan and black"
+                imageAlt="Graphic from top of current resume site"
                 headerText="Resume Site"
                 projectDescription="My personal online resume site. Built using scalable code in React so adding new content is simple and all handled in one respective component."
                 viewProjectLink="#"
@@ -38,11 +38,21 @@ function ProjectCards() {
                 viewOriginalLink=""/>
             <CreateProjectCard
                 cardImage={require('../images/newsletter.png').default}
-                imageAlt="Multiple charts glowing graphic"
+                imageAlt="Screenshot of newsletter site with welcome message and input field"
                 headerText="Newsletter Site"
                 projectDescription="Landing page built in pure HTML and CSS. Meant as a landing page for a small business, calling on people to subscribe."
                 viewProjectLink="projects/NewsLetter/index.html"
                 viewCodeLink="https://github.com/JesseProgramming/Dark-Theme-Site"
+                viewOriginalLink=""/>
+            <CreateProjectCard
+                cardImage={require('../images/chartimg.jpg').default}
+                imageAlt="Cyan and black chart graphic render"
+                headerText="Retro Game Store - WIP"
+                projectDescription="A user friendly store page front for retro games with 10+ products.
+                Built using REACT and REDUX for the reuse of essential components, and to carry data across 7 pages.
+                Currently an ongoing and active project."
+                viewProjectLink="#"
+                viewCodeLink="https://github.com/JessePython/DayDots"
                 viewOriginalLink=""/>
                 </div>
                 

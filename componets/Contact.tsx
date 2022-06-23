@@ -13,8 +13,8 @@ function Contact() {
              
              </div>
              <div id="social-links">
-             <a href = "#" target="_blank"><img src={require('../images/social-linkedin.256x256.png').default}/>Linkedin</a>
-                <img src={require('../images/github.256x250.png').default}/><a href = "#" target="_blank">Github</a>
+             <a href = "https://www.linkedin.com/in/jesse-clem/" target="_blank"><img src={require('../images/social-linkedin.256x256.png').default}/>Linkedin</a>
+                <img src={require('../images/github.256x250.png').default}/><a href = "https://www.linkedin.com/in/jesse-clem/" target="_blank">Github</a>
              </div>
          </div>
      );
