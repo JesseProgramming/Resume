@@ -34,7 +34,7 @@
 
 .card-body{
     display: block;
-    height: 25vh;
+    height: 15rem;
 }
 
 .CardButtons{
@@ -42,9 +42,9 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 2vh;
-    height: 20vh;
+    height: 20%;
     justify-content: center;
-    
+    position:relative;
 
     a{
         color:white;
@@ -103,7 +103,7 @@
 
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1650px) {
     .myCard{
         margin: 0px;
         margin-left: 5%;
@@ -112,7 +112,7 @@
     }
   }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
     .myCard{
         margin: 0px;
         margin-left: 15%;
@@ -232,7 +232,7 @@
         margin-left: 0%;
         width: 90%;
         margin-bottom: 40px;
-        height: 600px;
+        height: 650px;
     }
     .CardButtons{
     height: 25vh;
@@ -270,7 +270,7 @@
         height: 600px;
     }
     .CardButtons{
-    height: 25vh;
+    height: 30vh;
     }
     .cardContainer .row{
         display:initial;
@@ -282,7 +282,7 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 4vh;
-        height: 40vh;
+        height: 25vh;
         justify-content: center;
 
         a{
@@ -302,7 +302,7 @@
         margin-left: 0%;
         width: 90%;
         margin-bottom: 40px;
-        height: 600px;
+        height: 675px;
     }
     .CardButtons{
     height: 25vh;
@@ -352,7 +352,7 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 4vh;
-        height: 75vh;
+        height: 55vh;
         justify-content: center;
 
         a{
