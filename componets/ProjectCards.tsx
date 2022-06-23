@@ -52,7 +52,7 @@ function ProjectCards() {
                 Built using REACT and REDUX for the reuse of essential components, and to carry data across 7 pages.
                 Currently an ongoing and active project."
                 viewProjectLink="#"
-                viewCodeLink="https://github.com/JessePython/DayDots"
+                viewCodeLink="https://github.com/JesseProgramming/Retro-Game-Store-Page"
                 viewOriginalLink=""/>
                 </div>
                 
