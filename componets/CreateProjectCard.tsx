@@ -17,6 +17,15 @@ function DisplayViewProjectButton(props){
     }
 }
 
+function DisplayViewCodeButton(props){
+    if(props.isDisplayed){
+        return(<a href={props.viewCodeLink} target="_blank" className="btn btnTwo">View Code</a>);
+    }
+    else{
+        return;
+    }
+}
+
 //props:
 //cardImage, imageAlt, headerText, projectDescription, viewProjectLink, viewCodeLink, viewOriginalLink
 function CreateProjectCard(props) {
@@ -30,7 +39,7 @@ function CreateProjectCard(props) {
             <div className="CardButtons">
 
                     <DisplayViewProjectButton viewProjectLink = {props.viewProjectLink} isDisplayed= {props.viewProjectLink === "#" ? false : true}/>
-                    <a href={props.viewCodeLink} target="_blank" className="btn btnTwo">View Code</a>
+                    <DisplayViewCodeButton viewCodeLink = {props.viewCodeLink} isDisplayed= {props.viewCodeLink === "#" ? false : true}/>
                     <ShowLastButton viewOriginalLink = {props.viewOriginalLink} isDisplayed= {props.viewOriginalLink === "" ? false : true} isTrello = {props.isTrello} />
             </div>
         </div>

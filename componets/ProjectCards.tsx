@@ -18,7 +18,15 @@ function ProjectCards() {
                 isTrello={false}
                 viewOriginalLink="https://www.tesla.com/"/>
             <CreateProjectCard
-                cardImage={require('../images/DailyDaydots.png').default}
+                cardImage={require('../images/adminDashboard.png').default}
+                imageAlt="Dashboard display with multiple widgets and charts"
+                headerText="Admin Dashboard"
+                projectDescription="A complex multi-page dashboard app to track product sales. Charts were created using Charts.js. Light theme and dark theme available."
+                viewProjectLink="projects/AdminDashboard/index.html"
+                viewCodeLink="https://github.com/JesseProgramming/Admin-Dashboard"
+                viewOriginalLink=""/>
+            <CreateProjectCard
+                cardImage={require('../images/shot1.PNG').default}
                 imageAlt="Screenshot of GUI in the day dots app"
                 headerText="Day Dots Reference"
                 projectDescription="A tool designed as a reference chart for use in the restaurant industry to help take out human
@@ -26,8 +34,9 @@ function ProjectCards() {
                 This has been deployed for use in multiple restaurants and has garnered positive feedback and
                 improved workplace efficiency."
                 viewProjectLink="projects/DayDots/index.html"
-                viewCodeLink="https://github.com/JessePython/DayDots"
+                viewCodeLink="https://github.com/JesseProgramming/DayDotsv4"
                 viewOriginalLink=""/>
+                
             <CreateProjectCard
                 cardImage={require('../images/resume_site.JPG').default}
                 imageAlt="Graphic from top of current resume site"
@@ -37,25 +46,14 @@ function ProjectCards() {
                 viewCodeLink="https://github.com/JessePython/Resume"
                 viewOriginalLink=""/>
             <CreateProjectCard
-                cardImage={require('../images/newsletter.png').default}
-                imageAlt="Screenshot of newsletter site with welcome message and input field"
-                headerText="Newsletter Site"
-                projectDescription="Landing page built in pure HTML and CSS. Meant as a landing page for a small business, calling on people to subscribe."
-                viewProjectLink="projects/NewsLetter/index.html"
-                viewCodeLink="https://github.com/JesseProgramming/Dark-Theme-Site"
-                viewOriginalLink=""/>
-            <CreateProjectCard
-                cardImage={require('../images/chartimg.jpg').default}
-                imageAlt="Cyan and black chart graphic render"
-                headerText="Retro Game Store - WIP"
-                projectDescription="A user friendly store page front for retro games with 10+ products.
-                Built using REACT and REDUX for the reuse of essential components, and to carry data across 7 pages.
-                Currently an ongoing and active project."
+                cardImage={require('../images/preview.png').default}
+                imageAlt="Graphic from top of current resume site"
+                headerText="Ecommerce Site"
+                projectDescription="Coming soon."
                 viewProjectLink="#"
-                viewCodeLink="https://github.com/JesseProgramming/Retro-Game-Store-Page"
+                viewCodeLink="#"
                 viewOriginalLink=""/>
                 </div>
-                
             </div>
         </div>
     );

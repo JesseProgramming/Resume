@@ -2,7 +2,6 @@ export const IMAGE_SKILLS_FRONTEND = [
     ["JavaScript", require('../images/skills-icons/javascript-js.256x256.png').default],
     ["TypeScript", require('../images/skills-icons/typescript-icon.256x256.png').default],
     ["React", require('../images/skills-icons/react.256x228.png').default],
-    ["Redux", require('../images/skills-icons/redux-original.256x244.png').default],
     ["HTML5", require('../images/skills-icons/html5.226x256.png').default],
     ["CSS3", require('../images/skills-icons/css3.226x256.png').default],
     ["SASS", require('../images/skills-icons/file-type-sass.256x192.png').default],
