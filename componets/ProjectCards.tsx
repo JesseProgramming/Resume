@@ -23,7 +23,7 @@ function ProjectCards() {
                 headerText="Admin Dashboard"
                 projectDescription="A complex multi-page dashboard app to track product sales. Charts were created using Charts.js. Light theme and dark theme available."
                 viewProjectLink="projects/AdminDashboard/index.html"
-                viewCodeLink="https://github.com/JesseProgramming/Admin-Dashboard"
+                viewCodeLink="https://github.com/JesseProgramming/AdminDashboard"
                 viewOriginalLink=""/>
             <CreateProjectCard
                 cardImage={require('../images/shot1.PNG').default}
