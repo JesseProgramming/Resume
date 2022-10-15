@@ -3,7 +3,6 @@ import ProjectCards from './componets/ProjectCards.tsx';
 import SkillsCards from './componets/SkillsCards.tsx';
 import NavBar from './componets/NavBar.tsx';
 import Contact from './componets/Contact.tsx';
-
 function App() {
   return (
     <div > 
